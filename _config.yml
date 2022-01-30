@@ -40,6 +40,10 @@ permalink:        /:categories/:year-:month-:day-:title:output_ext
 exclude:
   - _drafts
 
+collections:
+  data:
+    output: true
+
 destination:      ./_site
 incremental:      false
 regenerate:       true
