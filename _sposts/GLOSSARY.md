@@ -1,5 +1,5 @@
 ---
-title:  Glossary <a id="top"></a>
+title:  Glossary
 author: slad2019
 date: 2022-01-30
 category: Jekyll
@@ -8,7 +8,7 @@ notoc: true
 ---
 
 
-Jump to: [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) | [Ü](#um)  
+<a id="top"></a>Jump to: [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) | [Ü](#um)  
   
 ## <a id="a"></a> A [&#8617;](#top)  
 **accumulation grain [tib. ཏྲབསོ་དྲུ; གྲབས་གསོག་འབྲུ]** A type of grain tax collected by the government and collected to create a surplus grain fund that could be used when needed. It was often used to provide welfare to households who faced hardships.  
