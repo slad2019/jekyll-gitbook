@@ -3,7 +3,7 @@ title:  Glossary
 author: slad2019
 date: 2022-01-30
 category: Jekyll
-layout: no-title-post
+layout: post
 ---
 # <a id="top"></a> Glossary
 
