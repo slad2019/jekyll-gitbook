@@ -5,7 +5,6 @@ author: slad2019
 date: 2022-01-30
 category: Jekyll
 layout: post
-noToc: true
 ---
 
 <div class="no_toc"></div>
