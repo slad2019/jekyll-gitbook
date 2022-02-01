@@ -1,3 +1,4 @@
+<a id = "top"></a>
 ---
 title:  Glossary
 author: slad2019
@@ -7,8 +8,8 @@ layout: post
 noToc: true
 ---
 
-<a id = "top"></a>
-# Glossary  
+<div class="no_toc"></div>
+
 Jump to: [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) | [Ü](#um)  
   
 ## <a id="a"></a> A [&#8617;](#top)  
