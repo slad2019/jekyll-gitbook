@@ -35,9 +35,9 @@
                 </li>
             {% endfor %}
             
-            {% assign reversed_pages = site.pages | reverse %}
+            {% assign reversed_sposts = site.sposts | reverse %}
 
-            {% for post in reversed_pages %}
+            {% for post in reversed_sposts %}
                 {% if page.url == post.url %}
                 <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                 {% else %}

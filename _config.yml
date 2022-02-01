@@ -41,7 +41,7 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  sposts:
     output: true
     permalink: /:collection/:path/
 
