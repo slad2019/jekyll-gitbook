@@ -30,6 +30,7 @@
   left: 50%;
   display: block;
   /*margin-left: 5vw;*/
+  all: revert;
   visibility: hidden;
   background-color: black;
   color: #fff;
