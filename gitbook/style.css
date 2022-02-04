@@ -10,7 +10,6 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
@@ -37,6 +36,8 @@
   text-align: left;
   max-width: 90vw;
   left: 5vw;
+  bottom: initial;
+  top: initial;
   padding: 5px 0;
   border-radius: 6px;
   position: fixed;
