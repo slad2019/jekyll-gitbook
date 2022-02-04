@@ -30,12 +30,11 @@
   display: block;
   /*margin-left: 5vw;*/
   visibility: hidden;
-  background-color: black;
+  background-color: #636363;
   color: #fff;
   text-align: left;
   max-width: 90vw;
   left: 5vw;
-  bottom: auto;
   padding: 5px 0;
   border-radius: 6px;
   position: fixed;
