@@ -20,7 +20,7 @@
   bottom: 50%;
   color: #fff;
   text-align: left;
-  width: 90vw;
+  max-width: 90vw;
   padding: 5px 0;
   position: fixed;
   border-radius: 6px;
