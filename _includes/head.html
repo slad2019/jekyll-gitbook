@@ -64,7 +64,11 @@
       let pcoords = target.parentElement.getBoundingClientRect();
 
       let left = coords.left + (target.offsetWidth - tooltipElem.offsetWidth) / 2;
-      if (left < pcoords.left) left = pcoords.left; // don't cross the left window edge
+      if (left < pcoords.left) {
+        left = pcoords.left; // don't cross the left window edge
+      } else if (left + tooltipElem.offsetWidth > pcoords.right) {
+        left = pcoords.right - tooltipElem.offsetWidth
+      }
       
 
       let top = coords.top - tooltipElem.offsetHeight - 10;
