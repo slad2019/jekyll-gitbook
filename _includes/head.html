@@ -61,18 +61,22 @@
 
       // position it above the annotated element (top-center)
       let coords = target.getBoundingClientRect();
+      let pcoords = target.parentElement.getBoundingClientRect();
 
       let left = coords.left + (target.offsetWidth - tooltipElem.offsetWidth) / 2;
-      if (left < 0) left = 0; // don't cross the left window edge
+      if (left < pcoords.left) left = pccords.left; // don't cross the left window edge
+      let right = left + tooltipElem.offsetWidth;
+      if (right > pcoords.right) right = pccords.right;
       
 
-      let top = coords.top - tooltipElem.offsetHeight - 5;
+      let top = coords.top - tooltipElem.offsetHeight - 10;
       if (top < 0) { // if crossing the top window edge, show below instead
-        top = coords.top + target.offsetHeight + 5;
+        top = coords.top + target.offsetHeight + 10;
       }
 
       tooltipElem.style.left = left + 'px';
       tooltipElem.style.top = top + 'px';
+      tooltipElem.style.right = right + 'px';
     };
 
     document.onmouseout = function(e) {
